@@ -1,13 +1,13 @@
 
 import './App.css';
-import Bg from './Selfmade/Bg';
-import HomeIcon from '@mui/icons-material/Home';
+import Login from './Component/Login';
+import Signup from './Component/Signup';
 
 function App() {
   return (
     <div>
-      <Bg/>
-      <HomeIcon/>
+    
+    <Signup/>
     </div>
   );
 }
